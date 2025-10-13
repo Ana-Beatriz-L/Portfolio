@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to right, #1f1f1f, #2c2c2c);
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+h1 {
+  color: #78c5e9;
+  font-size: 2.5em;
+}
+
+/* Títulos */
+h2 {
+  color: #66ccff;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 20px;
+}
+
+/* Seções */
+section {
+  margin-bottom: 40px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Lista de projetos */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  padding: 5px 0;
+}
+
+/* Links */
+a:link {
+  color: #66ccff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #cc99ff;
+}
+
+a:hover {
+  color: #ff6666;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  color: #999;
+  font-size: 0.9em;
+}
